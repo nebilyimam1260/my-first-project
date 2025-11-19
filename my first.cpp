@@ -1,12 +1,13 @@
 #include <iostream>
 
 int main() {
-    int num1, num2, sum;
-    std::cout << "Enter the first number: ";
-    std::cin >> num1;
-    std::cout << "Enter the second number: ";
-    std::cin >> num2;
-    sum = num1 + num2;
+    int a, b, sum;
+    std::cout << "Enter a: ";
+    std::cin >> a;
+    std::cout << "Enter b: ";
+    std::cin >>b;
+    sum = a + b;
     std::cout << "The sum is: " << sum << std::endl;
     return 0;
 }
+
